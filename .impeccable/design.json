@@ -1,0 +1,454 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-26T18:48:27+00:00",
+  "title": "Design System: PaniBook",
+  "extensions": {
+    "colorMeta": {
+      "bus-red": {
+        "role": "primary",
+        "displayName": "Bus Red",
+        "canonical": "#c8102e",
+        "tonalRamp": [
+          "#470610",
+          "#76091b",
+          "#a50d26",
+          "#e31234",
+          "#f0425e",
+          "#f47b8f",
+          "#f9b3bf",
+          "#fde7eb"
+        ]
+      },
+      "bus-red-deep": {
+        "role": "primary",
+        "displayName": "Deep Bus Red",
+        "canonical": "#9e0b22",
+        "tonalRamp": [
+          "#48050f",
+          "#77081a",
+          "#a70c24",
+          "#e51031",
+          "#f2405c",
+          "#f6798d",
+          "#fab3be",
+          "#fde7eb"
+        ]
+      },
+      "board-yellow": {
+        "role": "secondary",
+        "displayName": "Board Yellow",
+        "canonical": "#ffc72c",
+        "tonalRamp": [
+          "#4c3800",
+          "#805e00",
+          "#b28300",
+          "#f5b400",
+          "#ffc933",
+          "#ffd970",
+          "#ffe9ad",
+          "#fff8e5"
+        ]
+      },
+      "board-yellow-deep": {
+        "role": "secondary",
+        "displayName": "Deep Board Yellow",
+        "canonical": "#e0a800",
+        "tonalRamp": [
+          "#4c3900",
+          "#806000",
+          "#b28600",
+          "#f5b800",
+          "#ffcc33",
+          "#ffdb70",
+          "#ffebad",
+          "#fff9e5"
+        ]
+      },
+      "board-pale": {
+        "role": "secondary",
+        "displayName": "Board Pale",
+        "canonical": "#ffe07a",
+        "tonalRamp": [
+          "#4c3b00",
+          "#806200",
+          "#b28900",
+          "#f5bc00",
+          "#ffcf33",
+          "#ffde70",
+          "#ffecad",
+          "#fff9e5"
+        ]
+      },
+      "board-black": {
+        "role": "neutral",
+        "displayName": "Board Black",
+        "canonical": "#111111",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#7a7a7a",
+          "#999999",
+          "#b8b8b8",
+          "#d6d6d6",
+          "#f2f2f2"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2",
+        "canonical": "#2b2f35",
+        "tonalRamp": [
+          "#22252a",
+          "#393e46",
+          "#505763",
+          "#6e7887",
+          "#8e97a4",
+          "#b0b6bf",
+          "#d2d5da",
+          "#f1f2f4"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#4b5159",
+        "tonalRamp": [
+          "#23262a",
+          "#3a3f45",
+          "#525861",
+          "#707985",
+          "#9098a2",
+          "#b2b7be",
+          "#d3d6da",
+          "#f1f2f3"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#c9cdd3",
+        "tonalRamp": [
+          "#22252a",
+          "#393e46",
+          "#505762",
+          "#6e7887",
+          "#8f97a3",
+          "#b0b6bf",
+          "#d2d5da",
+          "#f1f2f4"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#eef0f3",
+        "tonalRamp": [
+          "#20252d",
+          "#353e4b",
+          "#4a5669",
+          "#657690",
+          "#8795ab",
+          "#abb5c4",
+          "#cfd5dd",
+          "#f0f2f4"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#7a7a7a",
+          "#999999",
+          "#b8b8b8",
+          "#d6d6d6",
+          "#f2f2f2"
+        ]
+      },
+      "ok": {
+        "role": "tertiary",
+        "displayName": "Confirmed Green",
+        "canonical": "#137a43",
+        "tonalRamp": [
+          "#0a4224",
+          "#116e3d",
+          "#189a55",
+          "#21d474",
+          "#4ee494",
+          "#83ecb4",
+          "#b8f4d4",
+          "#e9fcf2"
+        ]
+      },
+      "ok-soft": {
+        "role": "tertiary",
+        "displayName": "Confirmed Green Soft",
+        "canonical": "#ddf3e6",
+        "tonalRamp": [
+          "#143923",
+          "#215e3a",
+          "#2f8451",
+          "#40b570",
+          "#68ca90",
+          "#95dab1",
+          "#c3ead3",
+          "#ecf8f1"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Danger Red",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "#420e0b",
+          "#6d1712",
+          "#99201a",
+          "#d22d23",
+          "#e25850",
+          "#eb8a85",
+          "#f3bcb9",
+          "#fbeae9"
+        ]
+      },
+      "danger-soft": {
+        "role": "tertiary",
+        "displayName": "Danger Red Soft",
+        "canonical": "#fbe3e1",
+        "tonalRamp": [
+          "#440d09",
+          "#70160f",
+          "#9d1f15",
+          "#d82b1d",
+          "#e7574b",
+          "#ee8981",
+          "#f5bcb7",
+          "#fceae8"
+        ]
+      },
+      "whatsapp": {
+        "role": "tertiary",
+        "displayName": "WhatsApp Green",
+        "canonical": "#128c4a",
+        "tonalRamp": [
+          "#094424",
+          "#0f713c",
+          "#149e54",
+          "#1cd973",
+          "#4ae893",
+          "#80efb3",
+          "#b7f6d4",
+          "#e8fcf1"
+        ]
+      },
+      "whatsapp-deep": {
+        "role": "tertiary",
+        "displayName": "Deep WhatsApp Green",
+        "canonical": "#0d6e3a",
+        "tonalRamp": [
+          "#084424",
+          "#0d723c",
+          "#13a054",
+          "#1adb73",
+          "#49e993",
+          "#7ff0b4",
+          "#b6f6d4",
+          "#e8fcf2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page titles (text-balance); header contractor name at 1.6rem."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Home quick-action block labels."
+      },
+      "title": {
+        "displayName": "Board Title",
+        "purpose": "Board strips, section titles, day's-board banner; 1rem on form/settings strips."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text; 15px row metadata; 18px field text."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels, chips, button labels."
+      },
+      "plate": {
+        "displayName": "Plate",
+        "purpose": "Status and match plates; never wraps."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Bottom tab labels; bold when active."
+      }
+    },
+    "shadows": [
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 6px #ffc72c",
+        "purpose": "Paired with a 3px solid ink outline at 2px offset on every :focus-visible."
+      },
+      {
+        "name": "field-focus",
+        "value": "0 0 0 4px #ffc72c",
+        "purpose": "Focused input ring; border shifts to ink."
+      }
+    ],
+    "motion": [
+      {
+        "name": "press",
+        "value": "transform, background-color 150ms",
+        "purpose": "Buttons translate down 1px and darken on press; disabled under prefers-reduced-motion."
+      },
+      {
+        "name": "chip-toggle",
+        "value": "color/background 150ms",
+        "purpose": "Chip state change."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "column",
+        "value": "28rem",
+        "purpose": "Content and shell inner width cap (max-w-md); header and nav backgrounds remain full-bleed."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Bus-red main action: save, create, confirm.",
+      "html": "<button class=\"ds-btn ds-btn-primary\">സേവ് ചെയ്യുക</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:48px; padding:0 16px; border:2px solid #111111; border-radius:10px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:16px; font-weight:600; cursor:pointer; transition: transform 150ms, background-color 150ms; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline:3px solid #111111; outline-offset:2px; box-shadow:0 0 0 6px #ffc72c; } .ds-btn-primary { background:#c8102e; color:#ffffff; } .ds-btn-primary:hover, .ds-btn-primary:active { background:#9e0b22; }"
+    },
+    {
+      "name": "Board Button",
+      "kind": "button",
+      "refersTo": "button-board",
+      "description": "Yellow board action, used for intake and secondary emphasis.",
+      "html": "<button class=\"ds-btn ds-btn-board\">പുതിയ തൊഴിലാളി</button>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:48px; padding:0 16px; border:2px solid #111111; border-radius:10px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:16px; font-weight:600; cursor:pointer; transition: transform 150ms, background-color 150ms; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline:3px solid #111111; outline-offset:2px; box-shadow:0 0 0 6px #ffc72c; } .ds-btn-board { background:#ffc72c; color:#111111; } .ds-btn-board:hover, .ds-btn-board:active { background:#e0a800; }"
+    },
+    {
+      "name": "Contact Pair",
+      "kind": "button",
+      "refersTo": "button-whatsapp",
+      "description": "Call (outline) and WhatsApp (green) side by side; the off state is a dashed outline with the explanation link below the row.",
+      "html": "<div class=\"ds-contact\"><div class=\"ds-contact-row\"><a class=\"ds-btn ds-btn-outline\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg><span>വിളിക്കുക</span></a><a class=\"ds-btn ds-btn-wa\" href=\"#\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"/></svg><span>വാട്സ്ആപ്പ്</span></a></div><div class=\"ds-contact-row\"><span class=\"ds-btn ds-btn-off\" aria-disabled=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z\"/></svg><span>വിളിക്കുക</span></span><span class=\"ds-btn ds-btn-off\" aria-disabled=\"true\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M7.9 20A9 9 0 1 0 4 16.1L2 22Z\"/></svg><span>വാട്സ്ആപ്പ്</span></span></div><button class=\"ds-why\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4\"/><path d=\"M12 8h.01\"/></svg>Why is this off?</button></div>",
+      "css": ".ds-btn { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:48px; padding:0 16px; border:2px solid #111111; border-radius:10px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:16px; font-weight:600; cursor:pointer; transition: transform 150ms, background-color 150ms; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline:3px solid #111111; outline-offset:2px; box-shadow:0 0 0 6px #ffc72c; } .ds-contact { display:flex; flex-direction:column; gap:8px; max-width:360px; } .ds-contact-row { display:grid; grid-template-columns:1fr 1fr; gap:8px; } .ds-contact .ds-btn { min-height:56px; padding:0 10px; gap:6px; text-decoration:none; } .ds-btn-outline { background:#ffffff; color:#111111; } .ds-btn-outline:active { background:#eef0f3; } .ds-btn-wa { background:#128c4a; border-color:#0d6e3a; color:#ffffff; } .ds-btn-wa:hover, .ds-btn-wa:active { background:#0d6e3a; } .ds-btn-off { background:transparent; border-style:dashed; border-color:rgba(43,47,53,0.5); color:#2b2f35; cursor:default; } .ds-btn-off:active { transform:none; } .ds-why { display:inline-flex; align-items:center; gap:6px; background:none; border:0; padding:4px 0; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:14px; font-weight:600; color:#2b2f35; text-decoration:underline; text-underline-offset:3px; cursor:pointer; } .ds-why:focus-visible { outline:3px solid #111111; outline-offset:2px; }"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Large text field with a yellow focus ring; search variant with inset icon.",
+      "html": "<label class=\"ds-field-wrap\"><span class=\"ds-label\">പേര്</span><span class=\"ds-field-box\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input class=\"ds-field\" placeholder=\"തൊഴിലാളി, കട, ആവശ്യം തിരയുക\"></span></label>",
+      "css": ".ds-field-wrap { display:block; max-width:360px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; } .ds-label { display:block; margin-bottom:6px; font-size:15px; font-weight:600; color:#111111; } .ds-field-box { position:relative; display:block; color:#2b2f35; } .ds-field-box svg { position:absolute; left:14px; top:50%; transform:translateY(-50%); pointer-events:none; } .ds-field { display:block; width:100%; box-sizing:border-box; min-height:48px; padding:10px 16px 10px 44px; border:2px solid rgba(43,47,53,0.4); border-radius:10px; background:#ffffff; color:#111111; font-family:inherit; font-size:18px; outline:none; } .ds-field::placeholder { color:rgba(75,81,89,0.8); } .ds-field:hover { border-color:rgba(43,47,53,0.7); } .ds-field:focus { border-color:#111111; box-shadow:0 0 0 4px #ffc72c; }"
+    },
+    {
+      "name": "Filter Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Squared toggle chips; active is black with yellow text.",
+      "html": "<div class=\"ds-chips\"><button class=\"ds-chip\" aria-pressed=\"true\">എല്ലാം <span class=\"ds-chip-n\">38</span></button><button class=\"ds-chip\" aria-pressed=\"false\">ലഭ്യം <span class=\"ds-chip-n\">21</span></button><button class=\"ds-chip\" aria-pressed=\"false\">നിയമിച്ചു</button></div>",
+      "css": ".ds-chips { display:flex; gap:8px; flex-wrap:wrap; } .ds-chip { display:inline-flex; align-items:center; gap:6px; min-height:44px; padding:0 14px; border:2px solid rgba(43,47,53,0.3); border-radius:10px; background:#ffffff; color:#111111; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:15px; font-weight:500; cursor:pointer; transition:background-color 150ms, color 150ms; } .ds-chip:hover { border-color:#111111; } .ds-chip[aria-pressed=\"true\"] { background:#111111; border-color:#111111; color:#ffc72c; } .ds-chip:focus-visible { outline:3px solid #111111; outline-offset:2px; box-shadow:0 0 0 6px #ffc72c; } .ds-chip-n { font-variant-numeric:tabular-nums; opacity:0.7; }"
+    },
+    {
+      "name": "Board Strip Card",
+      "kind": "card",
+      "refersTo": "board-strip",
+      "description": "Signature: a keylined panel headed by a yellow destination-board strip, route-number count box, wrapping title, and a black strong-match plate.",
+      "html": "<a class=\"ds-panel\" href=\"#\"><div class=\"ds-strip\"><span class=\"ds-strip-title\"><span class=\"ds-route\">3</span><span>ലോഡിംഗ് തൊഴിലാളി</span></span><span class=\"ds-plate ds-plate-strong\">മികച്ചത് <span class=\"ds-score\">86</span></span></div><div class=\"ds-panel-body\"><p class=\"ds-shop\">Rice mill <span>· പെരുമ്പാവൂർ</span></p><p class=\"ds-meta\"><b>₹800/ദിവസം</b><span>9.8 km</span></p></div></a>",
+      "css": ".ds-panel { display:block; max-width:380px; overflow:hidden; border:2px solid #111111; border-radius:10px; background:#ffffff; color:#111111; text-decoration:none; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; } .ds-panel:active { opacity:0.9; } .ds-panel:focus-visible { outline:3px solid #111111; outline-offset:2px; box-shadow:0 0 0 6px #ffc72c; } .ds-strip { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:8px 12px; background:#ffc72c; color:#111111; font-family:'Baloo Chettan 2', 'Noto Sans Malayalam', system-ui, sans-serif; font-weight:800; font-size:1.25rem; line-height:1.2; } .ds-strip-title { display:flex; align-items:center; gap:8px; min-width:0; overflow-wrap:break-word; } .ds-route { display:flex; flex-shrink:0; align-items:center; justify-content:center; width:32px; height:32px; border-radius:6px; background:#111111; color:#ffc72c; font-variant-numeric:tabular-nums; } .ds-plate { display:inline-flex; flex-shrink:0; align-items:center; gap:4px; padding:2px 8px; border-radius:6px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:13px; line-height:20px; font-weight:700; white-space:nowrap; } .ds-plate-strong { background:#111111; color:#ffc72c; } .ds-score { font-variant-numeric:tabular-nums; opacity:0.8; } .ds-panel-body { padding:10px 12px; } .ds-shop { margin:0 0 4px; font-weight:600; } .ds-shop span { font-weight:400; color:#2b2f35; } .ds-meta { margin:0; display:flex; gap:16px; font-size:15px; color:#2b2f35; font-variant-numeric:tabular-nums; } .ds-meta b { color:#111111; }"
+    },
+    {
+      "name": "Status Plates",
+      "kind": "custom",
+      "refersTo": "plate-strong",
+      "description": "Plate tones: neutral, ok (the only green status), warn (board yellow), danger, and match strengths.",
+      "html": "<div class=\"ds-plates\"><span class=\"ds-plate ds-p-strong\">മികച്ചത് 92</span><span class=\"ds-plate ds-p-good\">നല്ലത് 74</span><span class=\"ds-plate ds-p-possible\">സാധ്യം 51</span><span class=\"ds-plate ds-p-ok\">സ്ഥിരം</span><span class=\"ds-plate ds-p-warn\">ട്രയൽ</span><span class=\"ds-plate ds-p-danger\">നഷ്ടം</span><span class=\"ds-plate ds-p-neutral\">അവസാനിച്ചു</span></div>",
+      "css": ".ds-plates { display:flex; flex-wrap:wrap; gap:8px; } .ds-plate { display:inline-flex; align-items:center; gap:4px; padding:2px 8px; border-radius:6px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; font-size:13px; line-height:20px; font-weight:700; white-space:nowrap; font-variant-numeric:tabular-nums; } .ds-p-strong { background:#111111; color:#ffc72c; } .ds-p-good { background:#ffffff; color:#111111; border:2px solid #111111; } .ds-p-possible { background:#eef0f3; color:#4b5159; } .ds-p-ok { background:#ddf3e6; color:#137a43; } .ds-p-warn { background:#ffc72c; color:#111111; } .ds-p-danger { background:#fbe3e1; color:#b3261e; } .ds-p-neutral { background:#eef0f3; color:#2b2f35; }"
+    },
+    {
+      "name": "Shell: Header and Bottom Nav",
+      "kind": "nav",
+      "refersTo": "bottom-nav",
+      "description": "Full-bleed bus-red header and black tab bar; active tab in yellow with a top marker.",
+      "html": "<div class=\"ds-shell\"><header class=\"ds-header\"><div><span class=\"ds-name\">Rajan K</span><span class=\"ds-brand\">PaniBook</span></div><button class=\"ds-icon-btn\" aria-label=\"Info\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4\"/><path d=\"M12 8h.01\"/></svg></button></header><div class=\"ds-ground\"></div><nav class=\"ds-nav\"><a class=\"ds-tab\" aria-current=\"page\" href=\"#\"><span class=\"ds-mark\"></span><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/></svg>ഹോം</a><a class=\"ds-tab\" href=\"#\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>തൊഴിലാളി</a><a class=\"ds-tab\" href=\"#\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"/><circle cx=\"9\" cy=\"7\" r=\"4\"/><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"/><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"/></svg>ആവശ്യം</a></nav></div>",
+      "css": ".ds-shell { max-width:420px; font-family:'Noto Sans Malayalam', 'Noto Sans', system-ui, sans-serif; } .ds-header { display:flex; align-items:center; justify-content:space-between; gap:8px; padding:12px 16px; background:#c8102e; color:#ffffff; } .ds-name { display:block; font-family:'Baloo Chettan 2', 'Noto Sans Malayalam', system-ui, sans-serif; font-weight:800; font-size:1.6rem; line-height:1; } .ds-brand { display:block; margin-top:2px; font-size:13px; font-weight:600; color:rgba(255,255,255,0.85); } .ds-icon-btn { display:flex; align-items:center; justify-content:center; width:40px; height:40px; border:2px solid rgba(255,255,255,0.7); border-radius:10px; background:transparent; color:#ffffff; cursor:pointer; } .ds-icon-btn:active { background:rgba(255,255,255,0.15); } .ds-ground { height:48px; background:#eef0f3; } .ds-nav { display:grid; grid-template-columns:repeat(3,1fr); background:#111111; } .ds-tab { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px; min-height:64px; font-size:12px; line-height:1.25; color:rgba(255,255,255,0.8); text-decoration:none; } .ds-tab:hover { color:#ffffff; } .ds-tab[aria-current=\"page\"] { color:#ffc72c; font-weight:700; } .ds-mark { position:absolute; left:12px; right:12px; top:0; height:4px; border-radius:0 0 4px 4px; background:#ffc72c; } .ds-tab:focus-visible { outline:3px solid #ffc72c; outline-offset:-3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The KSRTC Destination Board",
+    "overview": "**Creative North Star: \"The KSRTC Destination Board\"**\n\nEvery screen reads like the front of a Kerala bus. The shell is bus red, every list item has a yellow destination-board strip with big Malayalam on it that you can read from across a road, and the key facts sit on black plates. The contractor uses the app outdoors in bright sun and turns the screen round to show workers and shop owners, so the system goes for contrast, heavy display type and large tap targets ahead of anything subtle.\n\nSurfaces are flat white panels on a cool grey ground, outlined with a 2px ink keyline. Depth comes from colour blocks and keylines, never from soft shadows. The density is that of a working tool: one centred phone-width column, 12–16px inner spacing, and every row ready to act on (call, send on WhatsApp, mark placed).\n\nBoard black and board yellow carry meaning, and that meaning is kept narrow. Black-on-yellow marks the board (headers, strong matches, counts). Red marks the shell and the main action. Green is held back for WhatsApp and for things that are confirmed or paid.",
+    "keyCharacteristics": [
+      "Bus-red header, black bottom tab bar, cool grey ground, white panels with 2px ink keylines.",
+      "A yellow board strip heads every list card and section panel; match strength sits on it as a black plate.",
+      "Baloo Chettan 2 at weight 800 for boards and headings, Noto Sans Malayalam for body, tabular figures for money and counts.",
+      "Squared corners (6–10px), no soft shadows, Lucide line icons at one stroke weight.",
+      "Minimum tap height of 48px, 56px for contact actions."
+    ],
+    "rules": [
+      {
+        "name": "The Green Is Spoken For Rule",
+        "body": "Green appears only on WhatsApp actions and on ok/confirmed/paid states. Match-fit lines are never green. They are ink with a check icon, or show a bus-red warning icon when the worker asks for more than the offer.",
+        "section": "colors"
+      },
+      {
+        "name": "The Board Family Rule",
+        "body": "Every tint of yellow comes from the board family (board-yellow, board-yellow-deep, board-pale). No cream, beige or off-white tints.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Money Rule",
+        "body": "Every rupee amount, count, score and distance uses tabular figures.",
+        "section": "typography"
+      },
+      {
+        "name": "The Board Face Rule",
+        "body": "The 800-weight display face is for boards, headings and big numbers only. Body copy, labels and plates always use Noto.",
+        "section": "typography"
+      },
+      {
+        "name": "The Full-Bleed Shell Rule",
+        "body": "The red header and black tab bar always run edge to edge. Content never does; it stays in the centred max-w-md column.",
+        "section": "layout"
+      },
+      {
+        "name": "The No Soft Shadow Rule",
+        "body": "Box-shadow is used only as a solid yellow focus ring. Depth comes from keylines and colour blocks.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do head every need, match and section panel with a yellow board strip, and put match strength on it as a plate. Strong matches use black with yellow text.",
+      "Do let board-strip titles wrap; never truncate them.",
+      "Do put any count above one in a black route-number box on the strip.",
+      "Do show match fit in ink with a check icon, and use a bus-red warning icon when the worker's ask is above the offer.",
+      "Do render a deliberately off contact action as a dashed outline on a transparent fill, and put the labelled \"why is this off?\" (i) link below the button row.",
+      "Do keep a 2px ink keyline on panels, buttons and avatars, with 10px corners.",
+      "Do run the header and bottom nav full width and keep content in the centred max-w-md column.",
+      "Do use tabular figures for every amount, count and score.",
+      "Do use Lucide line icons at one stroke weight (2, or 2.5 for active or emphasised)."
+    ],
+    "donts": [
+      "Don't use green anywhere except WhatsApp actions and ok/confirmed/paid states.",
+      "Don't use cream or off-white tints; the pale tint is board-pale.",
+      "Don't add soft drop shadows; the only box-shadow is the solid yellow focus ring.",
+      "Don't put the \"why is this off?\" explanation inside the button row, or label records as demo or sample one by one.",
+      "Don't use the 800-weight display face for body copy, labels or plates.",
+      "Don't stretch content to full width on desktop.",
+      "Don't use pill-shaped buttons or chips; corners stay at 6–10px."
+    ]
+  }
+}

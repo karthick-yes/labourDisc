@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793033925166,
+      "tag": "0000_silky_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1793037576093,
+      "tag": "0001_previous_retro_girl",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793037576667,
+      "tag": "0002_osm_shops_are_real",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1793068194408,
+      "tag": "0003_upfront_commission",
+      "breakpoints": true
+    }
+  ]
+}

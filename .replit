@@ -1,0 +1,13 @@
+modules = ["nodejs-22", "postgresql-16"]
+# Workspace (development): Next dev server on 0.0.0.0 so the webview can reach it.
+run = "npm run dev -- -H 0.0.0.0 -p 3000"
+
+[deployment]
+deploymentTarget = "autoscale"
+build = ["sh", "-c", "npm ci && npm run build"]
+# Prepare the production DB (see scripts/deploy-db.mjs), seed reference data, serve.
+run = ["sh", "-c", "node scripts/deploy-db.mjs && npm run db:seed && PORT=3000 npm run start"]
+
+[[ports]]
+localPort = 3000
+externalPort = 80

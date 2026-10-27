@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+/* PaniBook — "destination board" system: bus red shell, board yellow strips,
+   board black plates, white work surfaces on a cool grey ground. Built for
+   reading in bright sun: strong contrast, heavy Malayalam display type. */
+@theme {
+  --color-bus: #c8102e;
+  --color-bus-dark: #9e0b22;
+  --color-board: #ffc72c;
+  --color-board-dark: #e0a800;
+  --color-board-soft: #ffe07a;
+  --color-ink: #111111;
+  --color-ink-2: #2b2f35;
+  --color-muted: #4b5159;
+  --color-line: #c9cdd3;
+  --color-ground: #eef0f3;
+  --color-surface: #ffffff;
+  --color-ok: #137a43;
+  --color-ok-soft: #ddf3e6;
+  --color-danger: #b3261e;
+  --color-danger-soft: #fbe3e1;
+  --color-wa: #128c4a;
+  --color-wa-dark: #0d6e3a;
+
+  --font-sans: var(--font-noto-ml), var(--font-noto), system-ui, sans-serif;
+  --font-display: var(--font-baloo), var(--font-noto-ml), system-ui, sans-serif;
+
+  --radius-board: 10px;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scrollbar-color: var(--color-ink-2) var(--color-ground);
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-size: 16px;
+  line-height: 1.5;
+  caret-color: var(--color-bus);
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--color-board);
+  color: var(--color-ink);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 6px var(--color-board);
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+@layer components {
+  /* Type */
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+  .label {
+    @apply mb-1.5 block text-[15px] font-semibold text-ink;
+  }
+  .hint {
+    @apply mt-1 block text-sm text-muted;
+  }
+
+  /* Buttons: squared, 2px ink keyline, heavy labels */
+  .btn {
+    @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-board border-2 border-ink px-4 text-base font-semibold transition-[transform,background-color] duration-150 active:translate-y-px disabled:pointer-events-none disabled:opacity-50;
+  }
+  .btn svg {
+    flex-shrink: 0;
+  }
+  .btn-primary {
+    @apply bg-bus text-white active:bg-bus-dark;
+  }
+  .btn-board {
+    @apply bg-board text-ink active:bg-board-dark;
+  }
+  .btn-ink {
+    @apply bg-ink text-white active:bg-ink-2;
+  }
+  .btn-outline {
+    @apply bg-surface text-ink active:bg-ground;
+  }
+  .btn-wa {
+    @apply border-wa-dark bg-wa text-white active:bg-wa-dark;
+  }
+  .btn-danger {
+    @apply border-danger bg-surface text-danger active:bg-danger-soft;
+  }
+  .btn-sm {
+    @apply min-h-10 px-3 text-sm;
+  }
+
+  /* Inputs */
+  .field {
+    @apply block min-h-12 w-full rounded-board border-2 border-ink-2/40 bg-surface px-4 py-2.5 text-lg text-ink outline-none placeholder:text-muted/80 focus:border-ink;
+  }
+  .field:focus {
+    box-shadow: 0 0 0 4px var(--color-board);
+  }
+
+  /* Surfaces */
+  .panel {
+    @apply overflow-hidden rounded-board border-2 border-ink bg-surface;
+  }
+  /* The destination-board strip: the app's signature list header. */
+  .strip {
+    @apply flex items-center justify-between gap-3 bg-board px-3 py-2 text-ink;
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+  .plate {
+    @apply inline-flex shrink-0 items-center gap-1 rounded-md px-2 py-0.5 text-[13px] leading-5 font-bold whitespace-nowrap;
+  }
+
+  /* Toggle chips (skills, filters) */
+  .chip {
+    @apply inline-flex min-h-11 items-center gap-1.5 rounded-board border-2 border-ink-2/30 bg-surface px-3.5 text-[15px] font-medium text-ink transition-colors;
+  }
+  .chip[aria-pressed="true"],
+  .chip[data-active="true"] {
+    @apply border-ink bg-ink text-board;
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

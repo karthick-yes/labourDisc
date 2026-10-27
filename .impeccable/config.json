@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-font",
+        "value": "anek malayalam",
+        "createdAt": "2026-10-27T02:21:22.031Z",
+        "reason": "Claude: only used in unchosen direction-round sketches under .impeccable/mocks/decision (gitignored scratch), not in the app"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "roboto mono",
+        "createdAt": "2026-10-27T02:21:22.048Z",
+        "reason": "Claude: only used in unchosen direction-round sketches under .impeccable/mocks/decision (gitignored scratch), not in the app"
+      }
+    ]
+  }
+}
